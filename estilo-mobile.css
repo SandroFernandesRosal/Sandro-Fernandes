@@ -1,0 +1,27 @@
+@media (max-width: 600px) {
+
+    * {
+        font-size: 1.1rem;
+    }
+
+#cabecalho nav ul li {
+    margin: 0rem;
+}
+    
+    div#topo ul li {
+        padding: .3rem;
+       
+    }
+    article#tecnologias {
+        padding: 3rem;
+    }
+
+    #tecnologias img {
+        max-width: 5rem;
+    }
+
+    div.conhecimentos {
+        max-width: 7rem;
+    }
+
+}
