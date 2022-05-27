@@ -4,6 +4,10 @@
         font-size: 1.1rem;
     }
 
+    div#topo h2 {
+        display: none;
+    }
+   
 #cabecalho nav ul li {
     margin: 0rem;
 }
