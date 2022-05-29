@@ -1,4 +1,4 @@
-@media (max-width: 800px) {
+@media (max-width: 700px) {
 
     * {
         font-size: 1.1rem;
@@ -7,9 +7,10 @@
     div#topo h2 {
         display: none;
     }
-   
+
 #cabecalho nav ul li {
     margin: 0rem;
+    padding: 0;
 }
     
     div#topo ul li {
@@ -17,15 +18,28 @@
        
     }
     article#tecnologias {
-        padding: 3rem;
+        padding: 2rem;
+        
     }
 
     #tecnologias img {
-        max-width: 5rem;
+        max-width: 90%;
+        
     }
 
     div.conhecimentos {
-        max-width: 7rem;
+        min-width: 30%;
+    }
+
+    
+
+article.projetos img {
+    width: 90%;
+}
+
+section#contato ul li {
+    margin:0px;
+    
     }
 
 }
