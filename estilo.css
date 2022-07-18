@@ -12,7 +12,7 @@ a {
 }
 
 body {
-    background-color: black
+    background-color: black;
 }
  
 /************** CABEALHO*********/
@@ -21,7 +21,7 @@ header#cabecalho {
     color: white;
     position: fixed;
     width: 100%;
-    background-color: black;
+    background-color: #0e0e0e;
 }
 
 div#topo {
@@ -112,6 +112,11 @@ section#quemsou {
 div#sou {
     width: 60%;
     align-self: center; 
+    background-color: #0e0e0e;
+    border-radius: 15px;
+    padding: 15px;
+    border: 1px solid green;
+    
 }
 
 cite h2 {
@@ -126,15 +131,16 @@ article#tecnologias {
 
 #tecnologias img {
     max-width: 7rem;
+
 }
 
 div.conhecimentos {
-    width: 30%;
+    
     max-width: 9rem;
     height: 20%;
     border-bottom: 2px solid green;
-    margin: .8rem;    
-   
+    margin: 4px;  
+    
     
 }
 
@@ -144,28 +150,62 @@ div.conhecimentos {
 /***********MEUS PROJETOS***********/
 
 section#meusprojetos {
-    background-image: url(img/bg-meusprojetos.jpg);
+    background-image: url(img/bg-quemsou2.jpg);
     background-position: center;
     padding-top: 4rem;
+    
     color: white; 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    
 }
 
 div#projeto {
     display: flex;
-    align-self: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 2rem 0px;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    
+    background-color: #0e0e0e;
+    border-radius: 15px;
+    padding: 15px;
+    border: 1px solid green;
+    
 }
 
 article.projetos {
     margin: 1rem;
+    display: flex;
+    flex-direction: column;
     }
 
-article.projetos img {
-    box-shadow: 0px 0px 1.5rem black;
-    border-radius: 2rem;
+.img-projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
+
+article.projetos img {
+    width: 70%;
+    margin: 15px;
+    border: 1px solid white;
+}
+
+.descricao {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    padding: 8px 0;
+    
+    
+}
+
+
 
 /**************FIM DOS MEUS PROJETOS****/
 
@@ -174,28 +214,29 @@ article.projetos img {
 
 section#contato {
     width: 100%;
-    padding-top: 4rem;
+    padding: 4rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(img/bg-contato.jpg);
+    
+    background-image: url(img/bg-quemsou2.jpg);
     background-position: center;  
 }
 
 section#contato ul {
-    max-width: 90%;
-    background-color: black; 
+    width: 60%;
     color: white;
-    box-shadow: 0px 0px 1.5rem white;
-    border-radius: 2rem;
-    padding: 1rem;
-    margin: 2rem;
+    border: 1px solid green;
+    background-color: #0e0e0e;
+    border-radius: 15px;
+    padding: 15px;
     
 }
 
 section#contato ul li {
 display: flex ;
 align-items: center;
+
 gap: 4px;
 }
 
@@ -209,7 +250,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10rem;
+    height: 5rem;
     background-image: url(img/bg-topo.jpg);
     color: white;   
 }
