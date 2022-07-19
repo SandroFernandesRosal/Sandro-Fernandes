@@ -130,7 +130,7 @@ article#tecnologias {
 }
 
 #tecnologias img {
-    max-width: 7rem;
+    max-width: 5rem;
 
 }
 
@@ -177,8 +177,9 @@ div#projeto {
 
 article.projetos {
     margin: 1rem;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
     }
 
 .img-projetos {
@@ -230,7 +231,10 @@ section#contato ul {
     background-color: #0e0e0e;
     border-radius: 15px;
     padding: 15px;
-    
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+       
 }
 
 section#contato ul li {
@@ -269,12 +273,13 @@ footer {
     font-size: 2.2rem;
     margin-bottom: 2rem;
     display: inline-block;
+
 }
 
 #wppflutuante {   
     position: fixed;
-    top: 90%;
-    left: 1%;
+    top: 78%;
+    left:0%;
     z-index: 1;
 }
 
