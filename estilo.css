@@ -93,6 +93,7 @@ main#perfil {
 
 main#perfil img.perfil {
     border-radius: 10rem;
+    border: 2px solid green;
 }
 
 main#perfil h2 {
