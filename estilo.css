@@ -56,6 +56,10 @@ div#topo h2 a:hover {
     transition: 0.7s;
 }
 
+.home {
+    display: none;
+}
+
 /************ FIM DO CABEÇALHO*********/
 
 
