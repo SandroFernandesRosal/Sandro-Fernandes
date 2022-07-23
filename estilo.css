@@ -45,7 +45,7 @@ div#topo ul li a {
     color: white;
 }
 
-div#topo ul a li:hover {
+div#topo ul  li a:hover {
     color: green;
     border-bottom: 2px solid green; 
     transition: 0.7s;   
