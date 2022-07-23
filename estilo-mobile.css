@@ -3,6 +3,10 @@
     * {
         font-size: 1.1rem;
     }
+   
+   .home {
+    display: block;
+}
 
 #cabecalho nav ul li {
     margin: 0rem;
