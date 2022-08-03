@@ -176,7 +176,7 @@ cite h2 {
     
 }
 .container ul li::before {
-content: url(../img/formacao.png);
+content: url(img/formacao.png);
 position: relative;
 left: -1.8rem;
 top: -.9rem;
