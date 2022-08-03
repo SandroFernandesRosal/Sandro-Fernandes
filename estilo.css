@@ -79,7 +79,10 @@ div#topo h2 a:hover {
     position: relative;
     top: 85px;
     padding: 3px;
+    
 }
+
+
 
 main#perfil {
     background-image: url(img/bg-topo.jpg);
@@ -94,6 +97,7 @@ main#perfil {
 main#perfil img.perfil {
     border-radius: 10rem;
     border: 2px solid green;
+    
 }
 
 main#perfil h2 {
@@ -141,13 +145,86 @@ div#sou {
     
 }
 
-div#sou p {
-    text-align: justify;
-}
 
 cite h2 {
     padding: 2rem;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container ul {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.container ul li{
+    
+    display: flex;
+    padding-bottom: 25px;
+    margin-left: 1.3rem;
+    border-left: 1px groove gray;
+    
+    
+    
+}
+.container ul li::before {
+content: url(/img/formacao.png);
+position: relative;
+left: -1.8rem;
+top: -.9rem;
+
+
+
+}
+
+.descricao-estudos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
+ }
+
+ .descricao-estudos p {
+    text-align: start;
+ }
+
+ .descricao-estudos p::before, .descricao p::before {
+    content: "-";
+    color: green;
+   
+ }
+
+.descricao-estudos header, .projetos header {
+   margin-bottom: 10px; 
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   text-align: start;
+   color: green;
+   
+   
+}
+
+
+.estudos img {
+    height: 55px;
+    width: 55px;
+    position: relative;
+    left: 27px;
+    
+
+}
+
+
 
 article#tecnologias {
     display: flex;
@@ -238,6 +315,7 @@ section#contato {
     align-items: center;
     background-image: url(img/bg-quemsou2.jpg);
     background-position: center;  
+    text-align: start;
 }
 
 section#contato ul {
